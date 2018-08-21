@@ -9,3 +9,13 @@ Explain how you can still find an element in log time when the array is rotated:
 What is promise chaining? 
 
 Chaining multiple promises together by chaining multiple .then statements, which follow an iniial promise
+
+Explain what is returned by .then? 
+
+While .then contains a resulting callback, then value returned by then is a promist (allows for another then statement to be called)
+
+How can you suspend the execution of a .then statement? 
+
+Bu returning a new promist in the then statment. the resulting then won't activate until the promise settles. 
+
+How would you enhance your website by optimizin ghtml, css, and JavaScript
