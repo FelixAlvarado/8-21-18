@@ -1,0 +1,11 @@
+Explain how you can still find an element in log time when the array is rotated: 
+
+1. Find the pivot point and divide the array in two sub-arrays 
+2. call binary search for one of the two sub-arrays 
+(a) if element is greater than 0th element, search in left array 
+(b) else search in right array 
+3. if element is found in selected sub-array then return index. Else return -1. 
+
+What is promise chaining? 
+
+Chaining multiple promises together by chaining multiple .then statements, which follow an iniial promise
