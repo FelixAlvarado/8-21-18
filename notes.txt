@@ -19,3 +19,22 @@ How can you suspend the execution of a .then statement?
 Bu returning a new promist in the then statment. the resulting then won't activate until the promise settles. 
 
 How would you enhance your website by optimizin ghtml, css, and JavaScript
+
+HTML
+Avoid inline/embedded code 
+styles up to top, script down bottom 
+try out async 
+
+CSS 
+minify your stylesheerts 
+combining multiple css files 
+prefer <link> over @import 
+
+JS 
+load 3rd party content asynchronously 
+cache array lengths 
+avoid document.write 
+minimize repains and reflows 
+avoid unnecessary dom manipulations 
+minify your script 
+combine multiple js files into one 
